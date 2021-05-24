@@ -17,9 +17,7 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-
 }
-
 header a {
   color: #fce138
 }
@@ -86,10 +84,9 @@ section {
   color: #024e76;
 }
 .hero-form {
-  ...
   border-style: solid;
   border-width: 3px;
-  border-color: #24e76;
+  border-color: #024e76;
 }
 .hero-form {
   border: 3px solid #024e76;
@@ -181,14 +178,6 @@ section {
 .primary-border {
   border-color: #39a6b2;
 }
-  /* remove this enitre CSS rule */
-.intro h2 {
-
-}
-  /* and add this one */
-.steps h2 {
-
-}
 .steps div {
   margin-bottom: 80px;
 }
@@ -273,7 +262,7 @@ section {
 }
 .contact-info iframe {
   width: 400px;
-  height 400px;
+  height: 400px;
 }
 .contact-info div {
   width: 410px;
@@ -300,3 +289,15 @@ section {
 }
 
 /* REACH OUT STYLES END */
+.hero {
+  margin: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+}
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
